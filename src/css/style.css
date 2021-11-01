@@ -7,3 +7,29 @@ body{
     #7c26f8;
     background-attachment: fixed;
 }
+
+/* Barra de navegação */
+nav.navbar-transparent{
+    background: rgba(0, 0, 0, 0.486);
+    padding: 15px 0px;
+}
+
+/* Verificar em inspeção do navegador as classes corretas para ter o efeito desejado e repeitar a especifidade */
+.navbar-light .navbar-nav .nav-link{
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #1ed760;
+}
+
+.navbar-light .navbar-toggler{
+    border-color: #696969;
+}
+
+.divider{
+    width: 1px;
+    height: 20px;
+    margin: 10px 15px;
+    background: #fff;
+}
