@@ -71,12 +71,39 @@ nav.navbar-transparent {
     color: #000;
 }
 
+/* Estrutura de serviços */
+#services{
+    background: #fff;
+    padding: 20px 0 20px 0;
+}
+
+.albums{
+    padding: 10px 0px;
+}
+
 /* Tipografia */
 h1 {
     font-weight: 900;
     letter-spacing: -0.05em;
     margin-bottom: 50px;
     color: #fff;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 3.7em;
+    color: #000fff;
+}
+
+h3{
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    font-size:2.5em;
+    color: #000fff;
+}
+
+p{
+    font-size: 1.2em;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
