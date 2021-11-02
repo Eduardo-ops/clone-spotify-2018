@@ -1,7 +1,9 @@
 /* Layout */
-
 html, body, #home {
     height: 100%;
+
+    /* Atributo que possibilita esconder barra de bavegação inferior */
+    overflow-x: hidden;
 }
 
 body {
@@ -98,6 +100,11 @@ nav.navbar-transparent {
 
 .albums{
     padding: 10px 0px;
+}
+
+.rotate{
+    margin: 30px 0 0 80px;
+    transform: rotate(30deg);
 }
 
 /* Tipografia */
