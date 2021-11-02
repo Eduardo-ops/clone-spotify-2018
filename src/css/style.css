@@ -72,9 +72,28 @@ nav.navbar-transparent {
 }
 
 /* Estrutura de serviços */
+.sections-boxs{
+    padding: 20px 0 20px 0;
+}
+
 #services{
     background: #fff;
-    padding: 20px 0 20px 0;
+}
+
+#services h2, h3{
+    color: #000fff;
+}
+
+#resources h2{
+    color: #fff;
+}
+
+#resources h3{
+    color: #9bf0e1;
+}
+
+#resources p{
+    color: #fff;
 }
 
 .albums{
@@ -91,15 +110,14 @@ h1 {
 
 h2{
     font-weight: 700;
-    font-size: 3.7em;
-    color: #000fff;
+    font-size: 3em;
+    letter-spacing: -0.04em;
 }
 
 h3{
     font-weight: 900;
-    letter-spacing: -0.05em;
-    font-size:2.5em;
-    color: #000fff;
+    letter-spacing: -0.04em;
+    font-size:2em;
 }
 
 p{
