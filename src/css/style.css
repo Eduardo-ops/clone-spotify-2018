@@ -13,14 +13,12 @@ body {
 }
 
 /* Barra de navegação */
-
 nav.navbar-transparent {
     background: rgba(0, 0, 0, 0.486);
     padding: 15px 0px;
 }
 
 /* Verificar em inspeção do navegador as classes corretas para ter o efeito desejado e repeitar a especifidade */
-
 .navbar-light .navbar-nav .nav-link {
     font-weight: bold;
 }
@@ -45,7 +43,6 @@ nav.navbar-transparent {
 }
 
 /* Botões */
-
 .btn-custom {
     color: #fff;
     border-radius: 500px;
@@ -75,7 +72,6 @@ nav.navbar-transparent {
 }
 
 /* Tipografia */
-
 h1 {
     font-weight: 900;
     letter-spacing: -0.05em;
@@ -84,15 +80,20 @@ h1 {
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    .btn-custom {
+        margin: 10px 15px;
+    }
+}
 
 /* Small devices (landscape phones, 576px and up) */
-
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .btn-custom {
+        margin: 10px 15px;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
-
 @media (min-width: 768px) and (max-width: 991.98px) {
     h1 {
         font-size: 4em;
@@ -100,7 +101,6 @@ h1 {
 }
 
 /* Large devices (desktops, 992px and up) */
-
 @media (min-width: 992px) and (max-width: 1199.98px) {
     h1 {
         font-size: 5em;
@@ -108,7 +108,6 @@ h1 {
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-
 @media (min-width: 1200px) {
     h1 {
         font-size: 6em;
