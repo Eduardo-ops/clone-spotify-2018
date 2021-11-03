@@ -107,6 +107,19 @@ nav.navbar-transparent {
     transform: rotate(30deg);
 }
 
+/* Rodapé */
+footer{
+    background: #000;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+
+footer h4{
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
 /* Tipografia */
 h1 {
     font-weight: 900;
@@ -136,6 +149,9 @@ p{
     .btn-custom {
         margin: 10px 15px;
     }
+    .footer-box{
+        margin: 60px 0 10px 0;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -143,12 +159,24 @@ p{
     .btn-custom {
         margin: 10px 15px;
     }
+    .footer-box{
+        margin: 60px 0 10px 0;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     h1 {
         font-size: 4em;
+    }
+    .img-fotter{
+        height: 50px;
+    }
+    .logo-footer{
+        height: 25px;
+    }
+    .link-footer{
+        font-size: 0.9em;
     }
 }
 
